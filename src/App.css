@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import "tailwindcss";
+body {
+  margin: 0;
+}
+*{
+  font-family: 'Outfit';
+}
+.font-playfair {
+  font-family: 'Playfair' !important;
+}
+
+
+.nav-container {
+  @apply flex items-center justify-between px-16 py-4 absolute top-0 left-0 w-full text-white z-50;
+}
+
+.nav-left {
+  @apply flex items-center gap-3;
+}
+
+.nav-logo {
+  @apply w-10 h-10 object-contain;
+}
+
+.nav-brand {
+  @apply text-2xl font-semibold;
+}
+
+.nav-links {
+  @apply flex items-center gap-12 text-lg;
+}
+
+.nav-right {
+  @apply flex items-center gap-6;
+}
+
+.nav-login-btn {
+  @apply bg-white text-black px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition;
+}
+
+.search-wrapper {
+  @apply bg-white/95 backdrop-blur-lg p-6 rounded-2xl shadow-2xl flex items-center gap-6 w-[1050px] mt-10 ml-16;
+}
+
+.search-item {
+  @apply flex flex-col text-gray-700 w-[180px];
+}
+
+.search-item label {
+  @apply font-semibold mb-2 text-sm;
+}
+
+.search-item input {
+  @apply border border-gray-300 rounded-lg p-3 text-sm;
+}
+
+.search-btn {
+  @apply bg-black text-white px-10 py-4 rounded-xl text-base hover:bg-gray-900 transition w-[150px];
+}
