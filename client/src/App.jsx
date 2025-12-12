@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <p class="text">You have a new message!</p>
+      <p class="text"> message!</p>
     </>
   )
 }
