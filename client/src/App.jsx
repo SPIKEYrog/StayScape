@@ -1,13 +1,11 @@
-import { useState } from 'react'
+import React from 'react'
 
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
     <>
-      <p class="text"> message!</p>
+      <div className="min-h-screen flex items-center justify-center bg-gray-100">
+        <h1 className="text-4xl font-bold text-blue-600">Welcome to StayScape</h1>
+      </div>
     </>
   )
 }
