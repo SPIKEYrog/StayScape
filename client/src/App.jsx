@@ -1,14 +1,14 @@
-import { useState } from 'react'
+import React from 'react'
+import Navebar from './components/navbar'
+import { useLocation } from 'react-router-dom'
 
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
+  const isOwnewrPath =useLocation().pathname.includes('/owner');
   return (
-    <>
-      <p class="text">You have a new message!</p>
-    </>
+    <div>
+      <Navebar />
+    </div>
+    
   )
 }
 
