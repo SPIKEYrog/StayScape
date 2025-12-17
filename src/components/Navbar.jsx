@@ -42,8 +42,8 @@ export default function Navbar() {
       <ul className="hidden md:flex items-center gap-10 font-medium">
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/Hotels">Hotels</NavLink></li>
-        <li><NavLink to="/experience">Experience</NavLink></li>
-        <li><NavLink to="/about">About</NavLink></li>
+        <li><NavLink to="/">Experience</NavLink></li>
+        <li><NavLink to="/">About</NavLink></li>
       </ul>
 
       <NavLink

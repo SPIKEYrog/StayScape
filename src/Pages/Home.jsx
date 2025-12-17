@@ -1,13 +1,17 @@
 import Navbar from "../components/Navbar";
-
-import "../App.css";
 import Hero from "../components/Hero";
+import FeaturedDestinations from "../components/FeaturedDestinations";
+import HowItWorks from "../components/HowItWorks";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <Hero/>  
+      <Hero />
+      <FeaturedDestinations />
+      <HowItWorks/>
+      <Footer/>
     </div>
   );
 }
