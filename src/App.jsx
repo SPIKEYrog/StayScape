@@ -6,16 +6,14 @@ import Registration from "./Pages/Registration";
 import Hotels from "./Pages/Hotels";
 import HotelDetails from "./Pages/HotelDetails";
 
-
 function App() {
   return (
     <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/Registration" element={<Registration />} />
-        <Route path="/Hotels" element={<Hotels />} />
-        <Route path="/hotels/:id" element={<HotelDetails />} />
-      
+      <Route path="/" element={<Home />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/registration" element={<Registration />} />
+      <Route path="/hotels" element={<Hotels />} />
+      <Route path="/hotels/:id" element={<HotelDetails />} />
     </Routes>
   );
 }
